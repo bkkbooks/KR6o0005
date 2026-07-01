@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6o0005/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 方便心論
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T32/T32n1632.xml
+    old_id: T32n1632
+hash: sha256:17119e59b4aec5f12ccca33153b29723c24e7d168c301a1cebf13f1da467b5c6

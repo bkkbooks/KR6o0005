@@ -1,0 +1,94 @@
+canonical_identifier: bkk:krp/KR6o0005/v1
+canonical_location: https://kanripo.org/bkk/KR6o0005/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 方便心論
+  identifiers:
+    alt_id:
+    - T32n1632
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T32/T32n1632.xml
+    old_id: T32n1632
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit5
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6o0005_000.yaml, hash: 'sha256:17119e59b4aec5f12ccca33153b29723c24e7d168c301a1cebf13f1da467b5c6'}
+  - {seq: 1, filename: KR6o0005_001.yaml, hash: 'sha256:62d5abc6ba31cf454067a1375e22bb605bc3ceea591b6014b77c89b667837614'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6o0005_001.markers.yaml, hash: 'sha256:62507eec07de66542ca1db9abcfba905aed21160ce755d525029bbdb2b50863b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6o0005_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7447
+  label: 方便心論一卷
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6o0005_T_001-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 1 明造論品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6o0005_T_001-mulu-2
+    span:
+    - body
+    - 4047
+    - 4047
+  label: 2 明負處品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6o0005_T_001-mulu-3
+    span:
+    - body
+    - 4933
+    - 4933
+  label: 3 辯正論品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6o0005_T_001-mulu-4
+    span:
+    - body
+    - 5901
+    - 5901
+  label: 4 相應品
+  type: mulu
+  level: 1
+hash: sha256:21c8660018bd6b07c991e15bcf62fbf11549704ed276697511bb930908efea33
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

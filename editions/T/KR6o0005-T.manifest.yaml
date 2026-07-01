@@ -1,0 +1,78 @@
+canonical_identifier: bkk:krp/KR6o0005/T/v1
+canonical_location: https://kanripo.org/bkk/KR6o0005/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 方便心論
+  identifiers:
+    krp: KR6o0005
+    cbeta: T32n1632
+    cbeta_old_id: T32n1632
+    authorityid: CA0001007
+    json_key: T1632
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T32/T32n1632.xml
+    old_id: T32n1632
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6o0005_000-T.yaml, hash: 'sha256:17119e59b4aec5f12ccca33153b29723c24e7d168c301a1cebf13f1da467b5c6'}
+  - {seq: 1, filename: KR6o0005_001-T.yaml, hash: 'sha256:7a02ed2ca6b9695cfe8a5868bac494bbb78504500156cbdb5efc2157aaaa6877'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6o0005_000-T.markers.yaml, hash: 'sha256:55649454d419c4ceff50cd1036c1eb54343fccc1e1339fd8ea631948087f3d67'}
+  - {seq: 1, role: markers, filename: assets/KR6o0005_001-T.markers.yaml, hash: 'sha256:0d4056e23827ee4c824ce23f34adaf50cf1302ed610e2469d90a0b8c7ead64d6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6o0005_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7447
+  label: 方便心論一卷
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6o0005_T_001-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 1 明造論品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6o0005_T_001-mulu-2
+    span:
+    - body
+    - 4047
+    - 4047
+  label: 2 明負處品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6o0005_T_001-mulu-3
+    span:
+    - body
+    - 4933
+    - 4933
+  label: 3 辯正論品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6o0005_T_001-mulu-4
+    span:
+    - body
+    - 5901
+    - 5901
+  label: 4 相應品
+  type: mulu
+  level: 1
+hash: sha256:3d6f9eeb20e129d17ac546ebe6b2ee2b452f1d1112ac94f911e23e66c635fadd
